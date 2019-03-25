@@ -18,27 +18,58 @@
 body {
 	font-family: sans-serif;
 	line-height: 1.5;
-    background-color: pink;
+    background-color: white;
     font-size: 30px;
 }
 
-.caja1 {
-    padding: 20px;
-}
-.tituloprincipal {
-  color: blueviolet;
-  font-size: 80px;
-  font-weight: bold;
+.cabezera {
+ overflow:hidden;
+ padding: 20px;
 }
 
-p {
-	margin-bottom: 15px;
+.texto, .imagenes {
+    font-weight: bold;
+    float:left;
+}
+
+
+.textosobreimagen {
     color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 40%;
+    
 }
 
-.opinion {
-    font-size: 15px;
-    color: black;
+.memo {
+    padding: 30px;
+    margin-left:45%;
 }
+
+.caja2 {
+    align-items: center;
+    float:left;
+    width: 100%;
+}
+
+.cajafinal {
+    float:left;
+}
+
+.memobottletitulo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtexto {
+ font-size: 16px;
+}
+
+
+
+
+
+
 
 /* $3: XXXX */
