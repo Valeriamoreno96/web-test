@@ -18,6 +18,7 @@
 body {
 	font-family: sans-serif;
 	line-height: 1.5;
+    background-color: pink;
 }
 
 h1 {
@@ -25,8 +26,15 @@ h1 {
 	margin-bottom: 15px;
 }
 
+.tituloprincipal {
+  color: blueviolet;
+  font-size: 80px;
+    
+}
+
 p {
 	margin-bottom: 15px;
+    color: white;
 }
 
 /* $3: XXXX */
