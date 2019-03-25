@@ -19,22 +19,26 @@ body {
 	font-family: sans-serif;
 	line-height: 1.5;
     background-color: pink;
+    font-size: 30px;
 }
 
-h1 {
-	font-size: 30px;
-	margin-bottom: 15px;
+.caja1 {
+    padding: 20px;
 }
-
 .tituloprincipal {
   color: blueviolet;
   font-size: 80px;
-    
+  font-weight: bold;
 }
 
 p {
 	margin-bottom: 15px;
     color: white;
+}
+
+.opinion {
+    font-size: 15px;
+    color: black;
 }
 
 /* $3: XXXX */
