@@ -24,27 +24,81 @@ body {
 
 .cabezera {
  overflow:hidden;
- padding: 20px;
+ padding: 80px;
 }
 
-.texto, .imagenes {
+.texto {
     font-weight: bold;
-    float:left;
 }
 
+.memologo {
+    float: left;
+    margin-right: 1060px;
+}
 
-.textosobreimagen {
+.texto1, .texto2, .texto3, .icono1, .icono2 {
+    float: left;
+    margin-right: 150px;
+}
+
+.icono3 {
+    float: left;
+}
+
+.caja1{
+    position: relative;
+}
+    
+.imagenpiel{
+ position: absolute;
+ background-color: rgba(0,0,0,0.4);
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+}
+
+.monedero {
+    display: block;
+}
+
+.textosobreimagen1 {
     color: white;
-    font-size: 20px;
+    font-size: 80px;
     position: absolute;
-    margin-top: -40%;
-    margin-left: 40%;
+    margin-top: -35%;
+    margin-left: 35%;
+    font-weight: bold;
+    
+}
+
+.rallita {
+ border: 5px solid white;
+width: 200px;
+}
+
+.textosobreimagen2 {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    margin-top: -27%;
+    margin-left: 43%;
+    font-weight: bold;
     
 }
 
 .memo {
-    padding: 30px;
-    margin-left:45%;
+    padding: 60px;
+    margin-left: 36%;
+    font-size: 50px;
+
+    font-weight: bold;
+}
+
+.rallita2 {
+ border: 5px solid black;
+ width: 200px;
+    margin-left: 180px;
 }
 
 .caja2 {
