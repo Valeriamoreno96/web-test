@@ -27,13 +27,17 @@ body {
  padding: 30px;
 }
 
+.cabezeratexto{
+    display:flex;
+    float: right;
+}
+
 .texto {
     font-weight: bold;
 }
 
 .memologo {
     float: left;
-    margin-right: 900px;
 }
 
 .texto1, .texto2, .texto3 {
@@ -57,50 +61,55 @@ body {
 }
     
 .imagenpiel{
- position: absolute;
+ position: relative;
  background-color: rgba(0,0,0,0.4);
+ position: absolute;
  top: 0;
- left: 0;
- right: 0;
- bottom: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    
 }
 
 .monedero {
     display: block;
 }
 
+.textomonedero{
+    position:absolute;
+   top:50%;
+   left: 50%; 
+    transform: translate(-50%, -50%);
+    
+}
+
 .textosobreimagen1 {
     color: white;
     font-size: 50px;
-    position: absolute;
-    margin-top: -35%;
-    margin-left: 30%;
     font-weight: bold;
 }
 
 .rallita {
  border: 1px solid white;
-width: 40px;
+ width: 40px;
 }
 
 .textosobreimagen2 {
     color: white;
     font-size: 20px;
-    position: absolute;
-    margin-top: -27%;
-    margin-left: 43%;
+    margin-left: 32%;
+    margin-bottom: 25px;
     
 }
 
 .textosobreimagen3 {
     color: white;
     font-size: 15px;
-    position: absolute;
-    margin-top: -23%;
-    margin-left: 47%;
     padding: 10px;
     border: 2px solid white; 
     font-weight: bold;
+    width: 110px;
+    margin: auto;
 }
 
 .icono4{
