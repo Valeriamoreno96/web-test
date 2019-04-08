@@ -145,8 +145,10 @@ body {
 }
 
 .memo {
+    width: 18%;;
     padding: 60px;
-    margin-left: 36%;
+    margin-left: 50%;
+    transform: translate(-50%);
     font-size: 30px;
     font-weight: bold;
 }
@@ -184,19 +186,24 @@ body {
     font-weight: bold;
     padding: 20px;
     width: 130px;
-    margin-left: 45%;
+    margin-left: 48%;
     
 }
 
 .caja3 {
     overflow: hidden;
+    height: 800px;
 }
 
 .subcaja3{
+  overflow: hidden;
   float: left;
   width: calc(25% - 10px);
 }
 
+.subcaja3: lastchild {
+  margin-right: 0px;
+}
 .texto5 {
     font-size: 20px;
     font-weight: bold;
