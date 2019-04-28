@@ -1,0 +1,204 @@
+/* 
+	Hoja de estilos para ejercicio/proyecto: XXXXXX
+	
+	Secciones: 
+	$1: Estilos base
+	$2: Estilos tipográficos
+	$3: XXXX
+
+*/
+
+/* $1: Estilos base */
+
+* { box-sizing: border-box; }
+
+
+/* $2: Estilos tipográficos */
+
+body {
+	font-family: sans-serif;
+	line-height: 1.5;
+    background-color: white;
+    font-size: 30px;
+}
+
+.cabezera {
+ overflow:hidden;
+ padding: 30px;
+}
+
+.cabezeratexto{
+    display:flex;
+    float: right;
+}
+
+.texto {
+    font-weight: bold;
+}
+
+.memologo {
+    float: left;
+}
+
+.texto1, .texto2, .texto3 {
+
+    float: left;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+.icono1, .icono2, .icono3 {
+    
+    margin-top: -4px;
+    float: left;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+.subswqdewdja2:last-child{
+  margin-right: 0px;
+}
+
+.cajainfo {
+    margin: 30px;
+    padding: 60px;
+    width: 40%;
+    background-color: whitesmoke;
+    height: 1500px;
+    float:left;
+}
+
+.textoprimero{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.textopeque {
+  font-size: 12px; 
+}
+
+.textosegundo{
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.textotercero{
+    width: 110px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.textocuarto{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.doslogos {
+  margin-bottom: 20px;  
+}
+
+.cantidad {
+    margin-bottom: 40px;
+}
+
+.cajaimagenes { 
+    float: none;
+}
+.memo {
+    width: 27%;;
+    padding: 60px;
+    margin-left: 48%;
+    transform: translate(-50%);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rallita2 {
+ border: 1px solid black;
+ width: 40px;
+ margin-left: 110px;
+}
+
+.subcaja3columnas{
+ overflow: hidden;
+ height:550px; 
+}
+
+.primera{
+  margin-bottom: 100px;
+}
+
+.subcaja3n1{
+  float: left;
+  width:calc(25%);
+}
+
+.texto5{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto6 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+}
+
+.texto7 {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: black;
+  position: absolute;
+  padding: 20px;
+  margin-top: -480px;
+  margin-left:70px; 
+}
+
+.cajafinal {
+    background-color: ghostwhite;
+    overflow: hidden;
+    height: 400px;
+    padding: 40px;
+}
+
+.subcajafinal{
+  float: left;
+  width: calc(25% - 80px);
+    margin-right: 25px;
+}
+
+.memobottletitulo{
+    color: dimgray;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtexto {
+    color: gray;
+ font-size: 16px;
+ line-height: 30px;
+}
+
+.interlineadoparrafo {
+    margin-bottom: 15px;
+}
+
+.icono5, .icono6 {
+color: gray;
+}
+
+
+
+
+
+/* $3: XXXX */

@@ -145,9 +145,9 @@ body {
 }
 
 .memo {
-    width: 18%;;
+    width: 27%;;
     padding: 60px;
-    margin-left: 50%;
+    margin-left: 48%;
     transform: translate(-50%);
     font-size: 30px;
     font-weight: bold;
@@ -186,29 +186,117 @@ body {
     font-weight: bold;
     padding: 20px;
     width: 130px;
-    margin-left: 48%;
+    margin-left: 45%;
     
 }
 
-.caja3 {
-    overflow: hidden;
-    height: 800px;
-}
-
-.subcaja3{
-  overflow: hidden;
-  float: left;
-  width: calc(25% - 10px);
-}
-
-.subcaja3: lastchild {
-  margin-right: 0px;
-}
-.texto5 {
-    font-size: 20px;
+.memo2{
+    width: 31%;;
+    padding: 40px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    font-size: 30px;
     font-weight: bold;
 }
 
+.rallita3 {
+ border: 1px solid black;
+ width: 40px;
+ margin-left: 185px;
+}
+
+.subcaja3columnas{
+ overflow: hidden;
+ height: 4000px; 
+}
+
+.primera{
+  margin-bottom: 100px;
+}
+
+.subcaja3n1{
+  float: left;
+  width:calc(25%);
+}
+
+.segunda{
+  margin-bottom: 100px;
+}
+.subcaja3n2{
+  float: left;
+  width:calc(25%);
+}
+
+.tercera{
+  margin-bottom:100px;
+}
+
+.subcaja3n3{ 
+ float:left;
+  width:calc(25%);
+} 
+
+
+.cuarta{
+  margin-bottom:100px;
+}
+
+.subcaja3n4{
+ float: left;
+  width:calc(25%);
+}
+
+.quinta{
+  margin-bottom: 100px;
+}
+
+.subcaja3n5{
+ float: left;
+  width:calc(25%);
+}
+
+.sexta{
+  margin-bottom: 100px;
+}
+.subcaja3n6{
+ float: left;
+  width:calc(25%);
+  margin-bottom: 40px;
+}
+
+.texto5 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto6 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+}
+
+.texto7 {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: black;
+  position: absolute;
+  padding: 20px;
+  margin-top: -480px;
+  margin-left:70px; 
+}
+.caja4{
+    overflow: hidden;
+    align-items: center;
+    padding: 50px;
+}
+.subcaja4{
+    float:left;
+    margin-right: 75px;
+}
 
 .cajafinal {
     background-color: ghostwhite;
